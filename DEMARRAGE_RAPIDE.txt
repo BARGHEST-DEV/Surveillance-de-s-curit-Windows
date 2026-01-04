@@ -1,0 +1,40 @@
+============================================
+ARGUS - Guide de demarrage rapide
+============================================
+
+ETAPE 1 : INSTALLATION
+----------------------
+1. Double-cliquez sur install.bat
+2. Attendez la fin de l'installation
+3. Verifiez qu'il n'y a pas d'erreurs
+
+ETAPE 2 : LANCEMENT
+-------------------
+1. Double-cliquez sur lanceur.bat
+2. Choisissez une option dans le menu :
+   - Option 1 : Mode normal (recommandé)
+   - Option 2 : Mode DEBUG (pour le developpement)
+   - Option 3 : Sans notifications Windows
+   - Option 4 : DEBUG sans notifications
+   - Option 5 : Verifier l'installation
+
+UTILISATION
+-----------
+- Appuyez sur Ctrl+C pour arreter ARGUS
+- Les logs sont sauvegardes dans le dossier logs/
+- Les alertes sont stockees dans data/history.db
+- Les exports sont dans data/exports/
+
+CONFIGURATION
+-------------
+- Editez data/whitelist.json pour ajouter des processus autorises
+- Editez data/blacklist.json pour ajouter des elements suspects
+- Modifiez core/config.py pour personnaliser les seuils
+
+SUPPORT
+-------
+Consultez README.md pour plus d'informations
+
+============================================
+
+

@@ -1,0 +1,19 @@
+# ARGUS - Outil de surveillance de sécurité Windows
+# Requirements Python
+
+# Monitoring système
+psutil>=5.9.0
+
+# Windows API
+pywin32>=305
+
+# Notifications Windows (optionnel)
+win10toast>=0.9
+
+# Base de données
+# SQLite est inclus dans Python standard
+
+# Utilitaires
+python-dateutil>=2.8.2
+
+
